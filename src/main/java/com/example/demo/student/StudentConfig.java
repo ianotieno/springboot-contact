@@ -18,21 +18,20 @@ CommandLineRunner commandLineRunner(StudentRepository repository){
      Student mariam = new Student(   
         "Mariam",
         "mariam@gmail.com",
-        21,
-        LocalDate.of(2000, Month.JANUARY, 5)
+         LocalDate.of(2009, Month.JANUARY, 5)
         );
 
         Student Ian= new Student(   
         "Ian",
         "ian@gmail.com",
-        21,
-        LocalDate.of(2000, Month.JANUARY, 5)
+        
+        LocalDate.of(2001, Month.JANUARY, 5)
         );
         Student Felix = new Student(    
         "Felix",
         "felix@gmail.com",
-        21,
-        LocalDate.of(2000, Month.JANUARY, 5)
+    
+        LocalDate.of(2005, Month.JANUARY, 5)
         );
 
         repository.saveAll(
